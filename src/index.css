@@ -9,17 +9,17 @@ body {
 }
 
 @media (min-width: 960px) {
-    .jss7 {
+    .makeStyles-firstGrid-7 {
         order: 1;
         padding: 3rem 0 0 7rem;
     }
 
-    .jss8 {
+    .makeStyles-secondGrid-8 {
         order: 2;
         padding: 3rem 7rem 0 0;
     }
 
-    .jss9 {
+    .makeStyles-thirdGrid-9 {
         order: 3;
         padding: 0 0 3rem 7rem;
     }
