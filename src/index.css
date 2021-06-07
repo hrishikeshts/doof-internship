@@ -8,10 +8,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
+@media (min-width: 960px) {
+    .makeStyles-firstGrid-7 {
+        order: 1;
+        padding: 3rem 0 0 7rem;
+    }
 
-:root {
-    --yellow: #f7d832;
+    .makeStyles-secondGrid-8 {
+        order: 2;
+        padding: 3rem 7rem 0 0;
+    }
+
+    .makeStyles-thirdGrid-9 {
+        order: 3;
+        padding: 0 0 3rem 7rem;
+    }
 }
